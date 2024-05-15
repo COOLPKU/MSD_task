@@ -9,7 +9,7 @@ Due to the restriction of intellectual property of the Chinese Contemporary Dict
 These sampled resources are uploaded to `data/`. The file structure is as follows:
 
 - `data/`: data files
-  - `MorInv.txt`
+  - `MorInv.txt`: Data for the morpheme inventory
   - `MorTxt/`: dataset for in-text MSD
     - `train.csv`
     - `valid.csv`
@@ -18,6 +18,15 @@ These sampled resources are uploaded to `data/`. The file structure is as follow
     - `train.csv`
     - `valid.csv`
     - `test.csv`
+
+# Data analysis
+The coverage of the released subset is as follows:
+|Dataset|#Entry|#Character|#Morpheme|
+|:----|:----|:----|:----|
+|**MorInv**|7930|3000|7930|
+|**MorTxt**|22800|2463|6767|
+|**MorWrd**|85095|2848|7384|
+
 
 
 
