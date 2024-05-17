@@ -32,6 +32,36 @@ The coverage of the released subset is as follows:
 
 # Data format
 
+**MorInv**
+The file `MorInv.txt` contains entries in MorInv. The format and example of the data are shown in the table:
+|Column|Description|Example|
+|:----|:----|:----|
+|**0**|Morpheme ID|白_1_10_01|
+|**1**|Morpheme|白|
+|**2**|PoS|形|白发，指老年
+|**3**|Morphemem sense|像雪的颜色|
+
+**MorTxt**
+The files in `data/MorTxt/` contain entries in MorTxt. The format and example of the data are shown in the table:
+|Column|Description|Example|
+|:----|:----|:----|
+|**0**|Word|～头|
+|**1**|Morpheme ID|白_1_10_01|
+|**2**|Target morpheme|白|
+|**3**|PoS|形|
+|**4**|Morphemem sense|像雪的颜色|
+|**5**|Word sense|白发，指老年|
+
+**MorWrd**
+The files in `data/MorWrd/` contain entries in MorWrd. The format and example of the data are shown in the table:
+|Column|Description|Example|
+|:----|:----|:----|
+|**0**|Context|一场大雪把大地变成了银～世界|
+|**1**|Morpheme ID|白_1_10_01|
+|**2**|Target morpheme|白|
+|**3**|PoS|形|
+|**4**|Morphemem sense|像雪的颜色|
+
 
 ## More Resources
 
