@@ -1,7 +1,7 @@
 # MSD_task
 Resources for the paper "Morpheme Sense Disambiguation: A New Task Aiming for Understanding the Language at Character Level" (LREC-COLING 2024)
 
-# general description
+# General description
 
 Our MorDis resource for Chinese MSD includes one morpheme inventory (**MorInv**) and two morpheme annotated datasets (**MorTxt** and **MorWrd**) for in-text and in-word MSD.
 
